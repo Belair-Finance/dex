@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'Cera Pro';
+  font-weight: 400;
+  src: url(/fonts/CeraProRegular.otf);
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  font-weight: 500;
+  src: url(/fonts/CeraProMedium.otf);
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  font-weight: 600;
+  src: url(/fonts/CeraProBold.otf);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Cera Pro';
+  scroll-behavior: smooth;
+}
+
+a {
+  color: #8c5cf2;
+  text-decoration: none;
+}
+
+body.dark {
+  background-color: #0d0f13;
+}
+
+::placeholder {
+  color: #b9bed5;
+  opacity: 1;
+}
+
+::-ms-input-placeholder {
+  color: #b9bed5;
+}
+
+::-webkit-scrollbar {
+  height: 5px;
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #8c5cf2;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #8c5cf2;
+}
